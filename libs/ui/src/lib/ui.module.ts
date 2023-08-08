@@ -13,5 +13,6 @@ import { AvatarComponent } from './avatar/avatar.component';
     PopoverComponent,
     AvatarComponent,
   ],
+  exports: [ButtonComponent, CardComponent, PopoverComponent, AvatarComponent]
 })
-export class UiModule {}
+export class UiModule { }
